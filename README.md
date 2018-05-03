@@ -1,15 +1,34 @@
 # [SiuHang](https://wshwsh.me)
 
 ## About me
+Hi, My name is Siu Hang. You can call me Peter. I am a media designer. I like visual art and animation. I studied media design in the college, and focused on motion graphic design. I always love both art and technology, and want to mix them together.
 
-Introduction of me
-
+***
 [![Resume Preview](img/profile_pic_2.jpg)](https://wshwsh.me)
 
 **[View Live Preview](https://wshwsh.me)**
 
-### Basic Usage
+## Work Experience
+* Media Design
+* 3D Animation
+* Graphic Design
+***
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+## Education
+School of Creative Media, City University of Hong Kong
+***
 
-## Copyright and License
+## Skills
+* 3D Animation
+* Motion Graphic
+***
+
+## Interests
+* Travel
+* Photography
+* Sport
+***
+
+## Gallery
+* Portfolio Screen Shots
+* Travel Photos
