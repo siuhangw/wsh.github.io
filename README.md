@@ -1,14 +1,12 @@
 # [SiuHang](https://wshwsh.me)
 
-Introduction of me
+## About me
 
-## Preview
+Introduction of me
 
 [![Resume Preview](img/profile_pic_2.jpg)](https://wshwsh.me)
 
 **[View Live Preview](https://wshwsh.me)**
-
-## Status
 
 ### Basic Usage
 
