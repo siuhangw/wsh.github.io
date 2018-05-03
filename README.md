@@ -4,9 +4,9 @@ Introduction of me
 
 ## Preview
 
-[![Resume Preview](https://github.com/siuhangw/wsh.github.io/tree/master/img/profile_pic_2.jpg)](https://wshwsh.me)
+[![Resume Preview](img/profile_pic_1.jpg)](https://wshwsh.me)
 
-**[View Live Preview](https://wshwsh.me)**
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
 
 ## Status
 
