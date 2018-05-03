@@ -4,7 +4,7 @@
 Hi, My name is Siu Hang. You can call me Peter. I am a media designer. I like visual art and animation. I studied media design in the college, and focused on motion graphic design. I always love both art and technology, and want to mix them together.
 
 ***
-[![Resume Preview](img/profile_pic_2.jpg)](https://wshwsh.me)
+[![Resume Preview](img/profile_pic_2_mid.jpg)](https://wshwsh.me)
 
 **[View Live Preview](https://wshwsh.me)**
 
