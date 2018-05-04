@@ -7,7 +7,7 @@ Although, I got a slight touch in computer science and programming, I still lack
 
 I think now is the best time self-taught about programming. There are tons of resources on the internet that we can make use of. Most of them are free of charge, or even open source.
 ***
-[![Resume Preview](img/profile_pic_2_mid.jpg)](https://wshwsh.me)
+[![Resume Preview](img/profile_pic_2_sml.jpg)](https://wshwsh.me)
 
 **[View Live Preview](https://wshwsh.me)**
 
