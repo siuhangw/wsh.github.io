@@ -1,17 +1,20 @@
 # [SiuHang](https://wshwsh.me)
 
 ## About me
-Hi, My name is Siu Hang. You can call me Peter. I am a media designer. I like visual art and animation. I studied media design in the college, and focused on motion graphic design. I always love both art and technology, and want to mix them together.
+Hi, My name is Siu Hang. You can call me Peter. I have a background in media design, specialised in motion graphic. I used various digital softwares to make artworks, when I was studying in college. I started to realise the power of technology. I find myself fall in love to art and technology, and want to make use of both.
 
+Although, I got a slight touch in computer science and programming, I still lack confidence in software development. Someday soon, I thought the reason behind is that the traditional teaching and learning methods are too theoretical, which mean lack of practical use. Since then, I started to spend my spare time to self-taught for game, web and interactive coding.
+
+I think now is the best time self-taught about programming. There are many resources on the internet we can find. Most of them are completely free of charge, or even open source. 
 ***
 [![Resume Preview](img/profile_pic_2_mid.jpg)](https://wshwsh.me)
 
 **[View Live Preview](https://wshwsh.me)**
 
 ## Work Experience
-* Media Design
-* 3D Animation
-* Graphic Design
+* Media Designer
+* 3D Animator
+* Graphic Designer
 ***
 
 ## Education
