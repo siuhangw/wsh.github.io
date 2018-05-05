@@ -1,0 +1,12 @@
+.wshSideNav {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+section.wsh-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
