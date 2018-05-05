@@ -10,11 +10,14 @@
   <link href="vendor/bootstrap-4.1.1-dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- wsh tailored CSS -->
   <link href="css/wsh.css" rel="stylesheet">
+  <!-- For Fluid Gallery -->
+  <link href="vendor/freebie-4-bootstrap-gallery-templates/fluid/fluid-gallery.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 </head>
 
 <body>
   <!-- The Whole Page -->
-  <div class="container-fluid">
+  <div class="container">
     <div class="row">
       <!-- Navigation Bar -->
       <!-- <div class="col-2">
@@ -109,13 +112,54 @@
             interests interests interests interests interests interests interests.
             interests interests interests interests interests interests interests.</p>
         </section>
-        <section class="wsh-section" id="gallery">
+        <!-- <section class="wsh-section" id="gallery">
           <h1>Gallery</h1>
           <p>Gallery gallery gallery gallery gallery gallery gallery gallery gallery.
            gallery gallery gallery gallery gallery gallery gallery gallery.
            gallery gallery gallery gallery gallery gallery gallery gallery.
            gallery gallery gallery gallery gallery gallery gallery gallery.
            gallery gallery gallery gallery gallery gallery gallery gallery.</p>
+        </section> -->
+
+        <section class="wsh-section" id="gallery">
+          <h1>Gallery</h1>
+          <p>I love travel and photography. Please see my works here!</p>
+          <!-- <div class="container gallery-container"> -->
+            <div class="tz-gallery">
+              <div class="row">
+                  <div class="col-sm-12 col-md-4">
+                      <a class="lightbox" href="img/bridge.jpg">
+                          <img src="img/bridge.jpg" alt="Bridge">
+                      </a>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="img/park.jpg">
+                          <img src="img/park.jpg" alt="Park">
+                      </a>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="img/tunnel.jpg">
+                          <img src="img/tunnel.jpg" alt="Tunnel">
+                      </a>
+                  </div>
+                  <div class="col-sm-12 col-md-8">
+                      <a class="lightbox" href="img/traffic.jpg">
+                          <img src="img/traffic.jpg" alt="Traffic">
+                      </a>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="img/coast.jpg">
+                          <img src="img/coast.jpg" alt="Coast">
+                      </a>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                      <a class="lightbox" href="img/rails.jpg">
+                          <img src="img/rails.jpg" alt="Rails">
+                      </a>
+                  </div>
+              </div>
+            </div>
+          <!-- </div> -->
         </section>
       </div>
   </div>
@@ -123,6 +167,12 @@
   <!-- Bootstrap core JS -->
   <script src="vendor/jquery-3.3.1/jquery-3.3.1.min.js"></script>
   <script src="vendor/bootstrap-4.1.1-dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+  <script>
+      baguetteBox.run('.tz-gallery');
+  </script>
 
 </body>
 
