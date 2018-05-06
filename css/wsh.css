@@ -9,7 +9,7 @@ section.wsh-section {
   border-bottom: 1px solid #dee2e6;
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .wshAuto {
@@ -17,4 +17,8 @@ section.wsh-section {
   margin-bottom: auto;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+p.wshPSize{
+  font-size: 20px;
 }
