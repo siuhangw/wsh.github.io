@@ -1,16 +1,12 @@
 # [SiuHang](https://wshwsh.me)
 
 ## About me
-Hi, My name is Siu Hang. You can call me Peter. I have a background in media design, specialised in motion graphic. I used various digital softwares to make artworks, when I was studying in college. I started to realise the power of technology. I find myself fall in love to art and technology, and want to make use of both.
-
-Although, I got a slight touch in computer science and programming, I still lack confidence in software development. Someday soon, I thought the reason behind is that the traditional teaching and learning methods are too theoretical, which mean lack of practical use. Since then, I started to spend my spare time to self-taught for game, web and interactive coding.
-
-I think now is the best time self-taught for programming. There are tons of resources and communities on the internet that we can make use of. Most of them are free of charge, or even open source. However, I think self-taught only suitable for people who is highly disciplined and self motivated.
-
-Actually, I am not that kind of person. What I need is a mentor who can give me usable feedback, so that I know what wrong with my concept, and what things can be improved. Without reliable advice I don't know if I really master the knowledge or skills. There are many active peoples in the forums or communities who can give you feedbacks or answers, but some of them are not so reliable.
-
-My goal is to master the skills of web development, especially in front-end development.
-
+Hi, My name is Siu Hang. You can call me Peter.
+Welcome to my personal page!
+I study digital media in School of Creative Media, City University of Hong Kong, and focus on computer animation, like film, animation, game design and so on.
+I have work experience in media design, specialised in motion graphic design.
+I know common digital design tools, like Adobe Photoshop, Illustrator, After Effects, Blender and Unity.
+I love Movie. Animation. Travel. Photography.
 ***
 [![Resume Preview](img\profile_pics\profile_pic_3.jpg)](https://wshwsh.me)
 
@@ -33,12 +29,11 @@ School of Creative Media, City University of Hong Kong
 ***
 
 ## Interests
+* Movie (Favorite: The Shawshank Redemption)
+* Animation (Favorite: Inside Out)
 * Travel
 * Photography
-* Sport
 ***
 
 ## Gallery
-I like travel and photography, see my works below!
-* Portfolio Screen Shots
-* Travel Photos
+As I said, I love travel and photography. There are some photos that have been taken since I was traveling in Siem Reap last week. Enjoy!
