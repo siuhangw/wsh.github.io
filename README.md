@@ -12,7 +12,7 @@ Actually, I am not that kind of person. What I need is a mentor who can give me 
 My goal is to master the skills of web development, especially in front-end development.
 
 ***
-[![Resume Preview](img/profile_pic_2_sml.jpg)](https://wshwsh.me)
+[![Resume Preview](img\profile_pics\profile_pic_3.jpg)](https://wshwsh.me)
 
 **[View Live Preview](https://wshwsh.me)**
 
