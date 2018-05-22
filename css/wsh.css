@@ -1,24 +1,68 @@
-.wshSideNav {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
+body{
+    position: relative;
 }
-
-section.wsh-section {
-  border-bottom: 1px solid #dee2e6;
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
-  min-height: 70vh;
+p {
+    font-size: 12px;
 }
-
-.wshAuto {
-  margin-top: auto;
-  margin-bottom: auto;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+#sideBar {
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(182, 182, 182);
+    height: 100%;
+    position: fixed;
+    z-index: 8;
 }
-
-p.wshPSize{
-  font-size: 20px;
+#sideBar .navbar {
+    position: absolute;
+    top: 210px;
+    right: 0;
 }
+#sideBar ul{
+    margin: 0;
+    padding: 0;
+}
+#sideBar li{
+    list-style: none;
+}
+#sideBar .navbar-nav {
+    flex-direction: column;
+}
+#sideBar .bg-light {
+    background-color: #b6b6b6!important;
+}
+/* Content */
+#content {
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(233, 233, 233);
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+/* Article */
+article img{
+    width: 48%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* SideBar */
+@media (max-width: 767px) { 
+    #sideBar {
+        height: 0;
+    }
+    #sideBar .navbar {
+        position: absolute;
+        top: 0;
+    }
+    #content {
+        top: 0;
+    }
+ }
