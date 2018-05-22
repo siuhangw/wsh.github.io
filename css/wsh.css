@@ -1,8 +1,18 @@
 body{
     position: relative;
+    background: rgb(233, 233, 233);
+    font-family: 'IBM Plex Serif', serif;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
 }
 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
+    text-align: justify;
 }
 #sideBar {
     text-align: center;
@@ -19,7 +29,7 @@ p {
 }
 #sideBar .navbar {
     position: absolute;
-    top: 210px;
+    top: 220px;
     right: 0;
 }
 #sideBar ul{
@@ -37,18 +47,17 @@ p {
 }
 /* Content */
 #content {
-    height: auto;
+    height: 100vh;
     position: absolute;
     top: 0;
     right: 0;
-    background: rgb(233, 233, 233);
 }
 .container-fluid {
     padding: 0;
     margin: 0;
 }
 /* Article */
-article img{
+article img {
     width: 48%;
     margin-top: 15px;
     margin-bottom: 15px;
