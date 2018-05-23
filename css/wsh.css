@@ -1,19 +1,30 @@
 body{
     position: relative;
     background: rgb(233, 233, 233);
-    font-family: 'IBM Plex Serif', serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 36px;
+h1 h2{
+    font-family: 'IBM Plex Mono', monospace;
     font-weight: bold;
     text-align: justify;
 }
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 24px;
+}
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
     text-align: justify;
 }
+ul li {
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Navigator */
 #navigator {
     text-align: center;
     top: 0;
@@ -52,14 +63,14 @@ p {
     top: 0;
     right: 0;
 }
-/* Article */
-article {
+/* About */
+#about article {
     padding-top: 15px;
     padding-bottom: 15px;
     position: relative;
     top: 172px;
 }
-article img {
+#about article img {
     width: 48%;
 }
 /* Gallery */
@@ -121,7 +132,6 @@ article img {
 .portfolio_container .overlay:hover{
     opacity: 1;
 }
-/* navigator */
 @media (max-width: 767px) { 
     #navigator {
         height: 0;
@@ -133,7 +143,7 @@ article img {
     #content {
         top: 0;
     }
-    article {
+    #about article {
         padding-top: 15px;
         padding-bottom: 15px;
         position: initial;
