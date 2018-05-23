@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/wsh.css" type="text/css">
 </head>
 
-<body>
+<body onload="resize();">
     <div class="row" id="main">
         <!-- Navigation Bar -->
         <div class="container-fluid col-xl-4 col-md-3" id="sideBar">
@@ -42,7 +42,7 @@
         <!-- Content -->
         <div class="container-fluid col-xl-8 col-md-9" id="content">
             <article class="col-xl-6 col-md-6">
-                <img src="img/profile_pic_2.jpg">
+                <!-- <img src="img/profile_pic_2.jpg"> -->
                 <h1>Hello World!!</h1>
                 <p>Hi, My name is Peter. Welcome to my page. I studied creative media, including game, animation and interactivity.
                     I like both art and technology. After graduation, I focused on computer animation. The tech things have
@@ -66,15 +66,22 @@
         $(window).resize(function () {
             if ($(window).width() <= 767) {
                 $('#innerSideBar').prependTo('#content');
-                // $('#sideBar').remove();
-                // console.log('is mobile device');
             }
             else {
                 $('#innerSideBar').prependTo('#sideBar');
-                // $('#sideBar').prependTo('#main');
-                // console.log('is desktop device');
             }
         });
+        
+        function resize() {
+            if ($(window).width() <= 767) {
+                $('#innerSideBar').prependTo('#content');
+                console.log(`It's mobile`);
+            }
+            else {
+                $('#innerSideBar').prependTo('#sideBar');
+                console.log(`It's desktop`);
+            }
+        }
     </script>
 </body>
 
