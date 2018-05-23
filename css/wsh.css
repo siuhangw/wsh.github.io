@@ -98,6 +98,9 @@ article img {
 .portfolio_container .overlay:hover{
     opacity: 1;
 }
+.portfolio_container .overlay:focus{
+    opacity: 1;
+}
 /* navigator */
 @media (max-width: 767px) { 
     #navigator {
