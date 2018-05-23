@@ -5,7 +5,7 @@ body{
 }
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     text-align: justify;
 }
@@ -14,7 +14,7 @@ p {
     font-size: 12px;
     text-align: justify;
 }
-#sideBar {
+#navigator {
     text-align: center;
     top: 0;
     left: 0;
@@ -27,22 +27,22 @@ p {
     position: fixed;
     z-index: 8;
 }
-#sideBar .navbar {
+#navigator .navbar {
     position: absolute;
     top: 220px;
     right: 0;
 }
-#sideBar ul{
+#navigator ul{
     margin: 0;
     padding: 0;
 }
-#sideBar li{
+#navigator li{
     list-style: none;
 }
-#sideBar .navbar-nav {
+#navigator .navbar-nav {
     flex-direction: column;
 }
-#sideBar .bg-light {
+#navigator .bg-light {
     background-color: #b6b6b6!important;
 }
 /* Content */
@@ -52,41 +52,72 @@ p {
     top: 0;
     right: 0;
 }
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
 /* Article */
+article {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    top: 172px;
+}
 article img {
     width: 48%;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
+/* Gallery */
 #gallery {
-    width: 75%;
-    height: 75%;
-}
-.photo_container {
     width: 100%;
-    background: red;
+    height: 100%;
+}
+.portfolio_container {
+    width: 100%;
     margin: 0;
     padding: 0;
 }
-.photo_container img {
+.portfolio_container img {
     width: 100%;
+    margin: 0;
+    padding: 0;
     background-size: cover;
 }
-
-/* SideBar */
+.portfolio_container .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.2s;
+    background-color: rgba(238, 84, 56, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #CCC;
+}
+.portfolio_container .overlay:hover{
+    opacity: 1;
+}
+/* navigator */
 @media (max-width: 767px) { 
-    #sideBar {
+    #navigator {
         height: 0;
     }
-    #sideBar .navbar {
+    #navigator .navbar {
         position: absolute;
         top: 0;
     }
     #content {
         top: 0;
+    }
+    article {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position: initial;
+        top: initial;
+    }
+    #gallery {
+        width: 100%;
+        height: 100%;
     }
  }
