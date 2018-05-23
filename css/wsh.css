@@ -67,6 +67,29 @@ article img {
     width: 100%;
     height: 100%;
 }
+#gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+  /* Create four equal columns that sits next to each other */
+#gallery .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+  
+#gallery .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;;
+}
+/* Portfolio */
+#portfolio {
+    width: 100%;
+    height: 100%;
+}
 .portfolio_container {
     width: 100%;
     margin: 0;
@@ -98,9 +121,6 @@ article img {
 .portfolio_container .overlay:hover{
     opacity: 1;
 }
-.portfolio_container .overlay:focus{
-    opacity: 1;
-}
 /* navigator */
 @media (max-width: 767px) { 
     #navigator {
@@ -119,8 +139,12 @@ article img {
         position: initial;
         top: initial;
     }
-    #gallery {
+    #portfolio {
         width: 100%;
         height: 100%;
+    }
+    #gallery .column {
+      flex: 50%;
+      max-width: 50%;
     }
  }
