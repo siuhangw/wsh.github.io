@@ -1,28 +1,29 @@
 # [Welcome to WSH](https://wshwsh.me)
 
-## About me
+## Getting Start
 WSH is my personal webpage. It shows 3 sections of mine, including ABOUT, WORKS and PHOTOS. 
 ***
-**[View Live Preview](https://wshwsh.me)**
+## Content
+### About
+* A short statement of mine
 
-## Layout
+### Works
+* My Portfolio
+
+### Photos
+* My travel photography
+***
+## Built With
+### Layout
 * This site is mainly contructed using bootstrap 4.1.1, with a custom style sheet.
-
-## Fonts
+### Fonts
 * IBM+Plex+Mono
 * IBM+Plex+Sans
 https://www.ibm.com/plex/
 https://fonts.google.com/?query=IBM
-
-## Other Libraries
+### Other Libraries
 * Font Awesome
 https://fontawesome.com/
-
-## About
-* A short statement of mine
-
-## Works
-* My Portfolio
-
-## Photos
-* My travel photography
+***
+### Authors
+* Peter, Wong Siu Hang
