@@ -1,4 +1,4 @@
-# [SiuHang](https://wshwsh.me)
+# [Welcome to WSH](https://wshwsh.me)
 
 ## About me
 WSH is my personal webpage. It shows 3 sections of mine, including ABOUT, WORKS and PHOTOS. 
