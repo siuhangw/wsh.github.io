@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/wsh.css" type="text/css">
 </head>
 
-<body onload="resize();">
+<body>
     <div class="container">
         <div class="row">
             <!-- Navigation Bar -->
@@ -89,24 +89,16 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript">
         $(window).resize(function () {
-            if ($(window).width() <= 767) {
-                $('#sideBar').prependTo('#content');
-            }
-            else {
-                $('#sideBar').prependTo('#navigator');
-            }
+            resize();
         });
 
         function resize() {
-            if ($(window).width() <= 767) {
-                $('#sideBar').prependTo('#content');
-                console.log(`It's mobile`);
-            }
-            else {
-                $('#sideBar').prependTo('#navigator');
-                console.log(`It's desktop`);
-            }
+            $('#sideBar').prependTo(($(window).width() <= 767) ? '#content' : '#navigator');
         }
+
+        $(function(){
+            resize();
+        })
     </script>
 </body>
 

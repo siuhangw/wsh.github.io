@@ -38,12 +38,6 @@ ul li {
     position: fixed;
     z-index: 8;
 }
-#navigator .navbar {
-    position: absolute;
-    top: 236px;
-    right: 0;
-    text-align: right;
-}
 #navigator ul{
     margin: 0;
     padding: 0;
